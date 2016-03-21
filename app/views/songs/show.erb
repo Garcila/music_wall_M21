@@ -1,0 +1,18 @@
+<h1> Song Details</h1>
+
+<a href="/">Home Page</a>
+<a href="/songs">View all the songs</a>
+<a href="/songs/new">Post a new song!</a>
+
+<h1><%= @song.title %></h1>
+
+<p>
+  Author: <%= @song.author %>
+</p>
+
+<p>
+  <h5><small>URL: <a href=<%= @song.url  %>>visit their site...leave my page... Nice!...really nice of you to do so</a></small></h5>
+</p>
+
+<hr/>
+<a href="/songs">Back to All Songs</a>
